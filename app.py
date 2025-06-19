@@ -108,4 +108,4 @@ def export_results():
         return f"An error occurred during export: {str(e)}", 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
